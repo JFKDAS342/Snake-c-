@@ -31,7 +31,7 @@ bool gameOver;
 // Инициализация игры
 void initGame(){
     gameOver = false;
-    direction = 1; // Начальное направление — вправо
+    direction = 1; // Начальное направление - вправо
     snake.clear();
     snake.push_back({WIDTH / 2, HEIGHT / 2});
     
